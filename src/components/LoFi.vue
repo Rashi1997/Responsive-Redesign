@@ -4,18 +4,19 @@
       <template #header>Lo-Fi Wireframes</template>
 
       <template #lead>
-        I have sketched the annotated wireframes below for desktop, tablet and mobile. The annotations specify what specific
-        feature has been added to uplift the current design.
+        I sketched the annotated wireframes below for desktop, tablet and mobile. The annotations specify what specific
+        feature has been added to make the current design responsive and more user friendly. The desktop annotations give the 
+        details of the website design and the mobile and tablet annotations tell the responsive changes from the desktop design.
       </template>
       <b-container class="bv-example-row">
         <b-row align-v="center">
-          <b-col class="text-center mt-5 mb-5 ml-3 mr-3">
+          <b-col class="text-center mt-5 mb-5 ml-2 mr-2">
             <b-img :src="require('../assets/desktop-lo.png')" fluid alt="Responsive image"></b-img>
             <p class="mt-4 h5 font-weight-light">Lo-fi for Desktop</p>
           </b-col>
         </b-row>
         <b-row align-v="center">
-          <b-col class="text-center mt-5 mb-5 ml-3 mr-3">
+          <b-col class="text-center mt-5 mb-5 ml-2 mr-2">
             <b-img :src="require('../assets/tablet-lo.png')" fluid alt="Responsive image"></b-img>
             <p class="mt-4 h5 font-weight-light">Lo-fi for Tablet</p>
           </b-col>

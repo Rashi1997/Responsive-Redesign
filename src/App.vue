@@ -1,28 +1,28 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <Introduction />
+    <OriginalWebsite id="original" />
+    <Redesign id ="redesign"/>
+    <LoFi id = "lo-fi" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Introduction from './components/Introduction.vue'
+import Redesign from './components/Redesign.vue'
+import OriginalWebsite from './components/OriginalWebsite.vue'
+import LoFi from './components/LoFi.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Introduction,
+    Redesign,
+    OriginalWebsite,
+    LoFi
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

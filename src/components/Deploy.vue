@@ -54,6 +54,14 @@
         </b-row>
         </b-row>
             <p class="mt-4 h5 font-weight-light text-center">Also works for large font size</p>
+
+        <b-row align-v="center">
+          <b-col class="text-center m-5">
+            <p class="mt-4 h5 font-weight-light"></p>
+            <b-img height="200px" width="300px"  :src="require('../assets/mywave.png')" fluid alt="Responsive image"></b-img>
+            <p class="m-4 h5 font-weight-light text-center">Wave Accessibility Report</p>
+          </b-col>
+        </b-row>
       </b-container>
 
       <div class="text-center">

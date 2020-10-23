@@ -19,6 +19,7 @@
       </p>
       <b-button variant="primary" href="https://torontocupcake.com/#">ORIGINAL WEBSITE</b-button>
       <b-button variant="success" class="ml-2" href="#" v-scroll-to="'#original'">CURRENT HOMEPAGE & ISSUES</b-button>
+      <b-button variant="info" class="ml-2" href="https://frozen-basin-88210.herokuapp.com/" >REDESIGNED HOMEPAGE</b-button>
     </b-jumbotron>
   </div>
 </template>

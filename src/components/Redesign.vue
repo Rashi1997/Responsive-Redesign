@@ -20,7 +20,7 @@
       </template>
       <div class="text-center">
         <b-button class="m-5" variant="success" href="#" size="lg" v-scroll-to="'#lo-fi'">LO-FI PROTOTYPE</b-button>
-        <b-button class="m-5" variant="success" href="#" size="lg" v-scroll-to="'#redesign'">HI-FI PROTOTYPE</b-button>
+        <b-button class="m-5" variant="success" href="#" size="lg" v-scroll-to="'#hi-fi'">HI-FI PROTOTYPE</b-button>
       </div>
 
     </b-jumbotron>

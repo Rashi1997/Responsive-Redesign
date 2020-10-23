@@ -1,7 +1,7 @@
 <template>
   <div>
     <b-jumbotron fluid container-fluid="md" bg-variant="white" border-variant="dark" class="full-height">
-      <template #header>Lo-Fi Wireframes</template>
+      <template #header>Lo-Fi Prototype</template>
 
       <template #lead>
         I sketched the annotated wireframes below for desktop, tablet and mobile. The annotations specify what specific
@@ -16,7 +16,7 @@
           </b-col>
         </b-row>
         <b-row align-v="center">
-          <b-col class="text-center mt-5 mb-5 ml-2 mr-2">
+          <b-col class="text-center mt-5 mb-5">
             <b-img :src="require('../assets/tablet-lo.png')" fluid alt="Responsive image"></b-img>
             <p class="mt-4 h5 font-weight-light">Lo-fi for Tablet</p>
           </b-col>
